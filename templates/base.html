@@ -10,15 +10,16 @@
 <body>
     <header>
         <nav>
-            <ul>
-            <a href="{{ url_for('index') }}">Inicio</a>
-            <a href="#">Eventos</a>
-            <a href="#">Prestamos</a>
+            <a href="{{ url_for('index') }}" class="logo">Senabike</a>
+            <ul class="nav-links">
+                <li><a href="#">Inicio</a></li>
+                <li><a href="#">Eventos</a></li>
+                <li><a href="#">Prestamos</a></li>
             </ul>
         </nav>
     </header>
         {% block content %}{% endblock %}
     <footer>
-        <p>&copy; 2025 Senabike. All rights reserved.</p>
+        <p>&copy; 2025 Senabike. todos los derechos reservados.</p>
 </body>
 </html>

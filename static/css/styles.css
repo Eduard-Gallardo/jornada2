@@ -45,6 +45,19 @@ button:hover {
 }
 
 
+
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background: #222;
+    color: #fff;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+
 /**inicio**/
 section{
     padding: 60px 20px;
@@ -61,15 +74,23 @@ section.Inicio-bg {
 }
 
 .verdlg{
-    text-align: right;
-    color: #05bd2d;
-    font-size: 3rem;
-    margin-bottom: 20px;
+    position: absolute; 
+    top: 140px; 
+    left: 920px; 
+    font-family: Adamina; 
+    font-size: 80px; 
+    line-height: 104px; 
+    font-weight: 400; 
+    color: rgb(8, 136, 82);
 
 }
 .ng{
-    text-align: right;
-    color: #3a3838;
-    font-size: 1.5rem;
-    margin-bottom: 20px;
+    position: absolute; 
+    top: 186px; 
+    left: 1000px; 
+    font-family: Adamina; 
+    font-size: 13px; 
+    line-height: 104px; 
+    font-weight: 400; 
+    color: rgb(0, 0, 0);
 }

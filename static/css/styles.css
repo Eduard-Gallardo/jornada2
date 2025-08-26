@@ -1,0 +1,75 @@
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: #f5f5f5;
+    color: #222;
+    line-height: 1.6;
+    min-height: 100vh;
+}
+
+.container {
+    max-width: 900px;
+    margin: 40px auto;
+    padding: 20px;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 2px 8px rgba(0,0,0,0.07);
+}
+
+h1, h2, h3 {
+    margin-bottom: 16px;
+    color: #333;
+}
+
+a {
+    color: #0077cc;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+button {
+    background: #0077cc;
+    color: #fff;
+    border: none;
+    padding: 10px 18px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1rem;
+}
+
+button:hover {
+    background: #005fa3;
+}
+
+
+/**inicio**/
+section{
+    padding: 60px 20px;
+    text-align: center;
+}
+section.Inicio-bg {
+    height: 100vh;
+    background-image: url('../img/fondo_in.png');
+    background-size: cover;
+    background-position: center;
+    display: list-item;
+    justify-content: right;
+    align-items: center;
+}
+
+.verdlg{
+    text-align: right;
+    color: #05bd2d;
+    font-size: 3rem;
+    margin-bottom: 20px;
+
+}
+.ng{
+    text-align: right;
+    color: #3a3838;
+    font-size: 1.5rem;
+    margin-bottom: 20px;
+}
